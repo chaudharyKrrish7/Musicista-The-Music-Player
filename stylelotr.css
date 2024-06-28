@@ -61,6 +61,8 @@ body::before {
     position: relative;
     cursor: pointer;
     margin-top: 20px;
+    border-radius: 10px;
+    
 }
 
 .progress {
@@ -94,14 +96,30 @@ body::before {
     font-weight: bold;
     font-style: normal;
 }
-
-@media only screen and (max-width: 418px) {
+@media only screen and (max-width: 443px) {
     #prev , #nxt{
         margin: 0px 20px 0px 20px;
     }
 }
-@media only screen and (max-width: 368px) {
+@media only screen and (max-width: 412px) {
+    h1{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 394px) {
     #prev , #nxt{
         margin: 0px 10px 0px 10px;
+    }
+}
+@media only screen and (max-width: 394px) {
+    #prev , #nxt{
+        margin: 0px 5px 0px 5px;
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+@media only screen and (max-width: 321px) {
+    h1{
+        font-size: 20px;
     }
 }
