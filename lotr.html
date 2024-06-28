@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylelotr.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <img src="lotr.jpg" alt="">
+        <br><br>
+        <div class="player">
+                <audio id="audio" src="lotr.mp3"></audio>
+                <div class="progress-bar" onclick="seek(event)">
+                    <div class="progress" id="progress"></div>
+                    <a href="hp.html"><button id="prev">Prev</button></a>
+                    <i class="play-btn" id="playPauseBtn">▶</i>
+                    <a href="got.html"><button id="nxt">Next</button></a>
+                </div><br><br><br>
+        </div>
+        <div class="time-display" id="timeDisplay">0:00 / 0:00</div>        
+        <br>
+        <h1>Concerning Hobbits</h1>
+        <h2>Lord Of The Rings</h2>
+        <h2>Howard Shore</h2>
+        <br>
+        <a href="index.html"><button id="prev">Home</button></a>
+        <br><br>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
