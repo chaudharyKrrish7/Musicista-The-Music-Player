@@ -94,4 +94,13 @@ body::before {
     font-weight: bold;
     font-style: normal;
 }
-
+@media only screen and (max-width: 418px) {
+    #prev , #nxt{
+        margin: 0px 20px 0px 20px;
+    }
+}
+@media only screen and (max-width: 368px) {
+    #prev , #nxt{
+        margin: 0px 10px 0px 10px;
+    }
+}
